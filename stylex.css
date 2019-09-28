@@ -1,0 +1,50 @@
+<style type="text/css">  body {
+    background-color: #000000 !important;
+    background-image: url(https://4.bp.blogspot.com/-TSXB_30k6vI/XY7yLJcY9EI/AAAAAAAAKB8/dfQ4wB3dllAzpTYtqR_3aVNtWkej1kYQgCPcBGAYYCw/s1600/anime-goblin-slayer-armour.jpg) !important;
+    background-position: center !important;
+    background-size: cover !important;
+    background-repeat: no-repeat !important;
+  }
+h1{color:#ff9;}
+
+#left_container {display:none;}
+#rc-row-container {display:none;}
+
+button{
+  background:#0099FF;
+  color:#fff;
+  border:none;
+  position:relative;
+  height:30px;
+  font-size:1em;
+  padding:0 1em;
+  cursor:pointer;
+  transition:800ms ease all;
+  outline:none;
+}
+button:hover{
+  background:#006666;
+  color:#000;
+}
+button:before,button:after{
+  content:'';
+  position:absolute;
+  top:0;
+  right:0;
+  height:2px;
+  width:0;
+  background: #1AAB8A;
+  transition:400ms ease all;
+}
+button:after{
+  right:inherit;
+  top:inherit;
+  left:0;
+  bottom:0;
+}
+button:hover:before,button:hover:after{
+  width:100
+  transition:800ms ease all;
+}
+
+</style>
